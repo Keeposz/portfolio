@@ -319,27 +319,35 @@ body {
     }
 
     .terminal-body {
-        padding: 15px;
+        padding: 12px;
         min-height: 300px;
         max-height: 75vh;
-        font-size: 12px;
+        font-size: 11px;
+        overflow-x: hidden;
     }
 
     .prompt {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .command {
-        font-size: 11px;
+        font-size: 10px;
+        word-break: break-all;
     }
 
     .output {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .output-tree {
-        font-size: 11px;
-        line-height: 1.5;
+        font-size: 10px;
+        line-height: 1.4;
+    }
+
+    .command-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
     }
 
     .profile-img {
@@ -364,6 +372,13 @@ body {
         white-space: pre-wrap;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        font-size: 10px !important;
+    }
+
+    /* ASCII art special handling */
+    pre:first-child {
+        font-size: 8px !important;
+        overflow-x: auto;
     }
 }
 
@@ -380,17 +395,30 @@ body {
     }
 
     .terminal-body {
-        padding: 12px;
-        font-size: 11px;
+        padding: 10px;
+        font-size: 10px;
     }
 
     .profile-img {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     .skip-button {
-        padding: 5px 10px;
-        font-size: 9px;
+        padding: 4px 8px;
+        font-size: 8px;
+    }
+
+    .output-tree {
+        font-size: 9px !important;
+        line-height: 1.3;
+    }
+
+    pre {
+        font-size: 9px !important;
+    }
+
+    pre:first-child {
+        font-size: 7px !important;
     }
 }
