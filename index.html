@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Jonas Desmet - Aspiring Platform Engineer | Portfolio</title>
+    <meta name="title" content="Jonas Desmet - Aspiring Platform Engineer | Portfolio">
+    <meta name="description" content="Student Systeem- en Netwerkbeheer uit Oost-Vlaanderen met focus op platform engineering, Kubernetes, Docker, Terraform en cloud native technologies.">
+    <meta name="keywords" content="Platform Engineer, Kubernetes, Docker, Terraform, DevOps, Cloud Native, System Administration, Network Management, Jonas Desmet">
+    <meta name="author" content="Jonas Desmet">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonasdesmet-portfolio.be/">
+    <meta property="og:title" content="Jonas Desmet - Aspiring Platform Engineer">
+    <meta property="og:description" content="Student Systeem- en Netwerkbeheer met passie voor platform engineering, infrastructuur automation en cloud native technologies.">
+    <meta property="og:image" content="https://jonasdesmet-portfolio.be/Profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jonasdesmet-portfolio.be/">
+    <meta property="twitter:title" content="Jonas Desmet - Aspiring Platform Engineer">
+    <meta property="twitter:description" content="Student Systeem- en Netwerkbeheer met passie voor platform engineering, infrastructuur automation en cloud native technologies.">
+    <meta property="twitter:image" content="https://jonasdesmet-portfolio.be/Profile.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+        <ul role="list">
+            <li><a href="#about" data-section="about" aria-label="Navigate to About Me section">ABOUT ME</a></li>
+            <li><a href="#skills" data-section="skills" aria-label="Navigate to Skills section">SKILLS</a></li>
+            <li><a href="#certifications" data-section="certifications" aria-label="Navigate to Certifications section">CERTIFICATIONS</a></li>
+            <li><a href="#contact" data-section="contact" aria-label="Navigate to Contact section">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container" role="main">
+        <!-- Terminal Window -->
+        <div class="terminal" role="region" aria-label="Portfolio terminal interface">
+            <div class="terminal-header">
+                <span class="terminal-title">Terminal</span>
+            </div>
+            <div class="terminal-body">
+                <div id="terminal-content" aria-live="polite" aria-atomic="true">
+                    <!-- Content will be dynamically loaded here -->
+                </div>
+                <div class="terminal-input-line" aria-hidden="true">
+                    <span class="prompt">[jonas@portfolio ~]$</span>
+                    <span class="cursor">█</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Arrow -->
+        <button class="scroll-arrow" aria-label="Scroll to next section">
+            <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+                <path d="M20 5 L20 30 M20 30 L10 20 M20 30 L30 20" stroke="#50fa7b" stroke-width="3" fill="none"/>
+            </svg>
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

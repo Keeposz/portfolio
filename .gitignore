@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+.claude/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Favicon generator (not needed in production)
+create_favicon.html
