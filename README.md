@@ -2,27 +2,27 @@
 
 Een terminal-gebaseerde portfolio website voor Jonas Desmet, aspirant platform engineer.
 
-🌐 **Live Demo:** [https://keeposz.github.io/portfolio/](https://keeposz.github.io/portfolio/)
+**Live Demo:** [https://keeposz.github.io/portfolio/](https://keeposz.github.io/portfolio/)
 
 ---
 
-## 📋 Overzicht
+## Overzicht
 
 Deze portfolio website simuleert een terminal interface en toont mijn vaardigheden, certificaten en contactinformatie op een unieke en interactieve manier.
 
 ### Features
 
-- 🖥️ **Terminal-stijl interface** met typing animatie
-- ⏭️ **Skip button** voor snelle navigatie
-- 📱 **Volledig responsive** design (desktop, tablet, mobile)
-- 🎨 **Dracula color scheme** voor een retro terminal look
-- ♿ **Accessibility** features (ARIA labels, semantic HTML)
-- 🔍 **SEO geoptimaliseerd** met meta tags
-- 🖼️ **Custom favicon** (retro computer icoon)
+- **Terminal-stijl interface** met typing animatie
+- **Skip button** voor snelle navigatie
+- **Volledig responsive** design (desktop, tablet, mobile)
+- **Dracula color scheme** voor een retro terminal look
+- **Accessibility** features (ARIA labels, semantic HTML)
+- **SEO geoptimaliseerd** met meta tags
+- **Custom favicon** (retro computer icoon)
 
 ---
 
-## 🏗️ Technische Stack
+## Technische Stack
 
 - **HTML5** - Semantische markup
 - **CSS3** - Responsive design met flexbox
@@ -31,7 +31,7 @@ Deze portfolio website simuleert een terminal interface en toont mijn vaardighed
 
 ---
 
-## 📂 Project Structuur
+## Project Structuur
 
 ```
 Portfolio_Website/
@@ -47,7 +47,7 @@ Portfolio_Website/
 
 ---
 
-## 🎯 Ontwikkelingsproces
+## Ontwikkelingsproces
 
 ### 1. **Initiële Opzet**
 - HTML structuur met terminal window concept
@@ -117,7 +117,7 @@ Custom SVG favicon:
 
 ---
 
-## 🎨 Design Keuzes
+## Design Keuzes
 
 ### Kleurenschema (Dracula Theme)
 ```css
@@ -143,7 +143,7 @@ Dark accents:    #1e1f29, #44475a
 
 ---
 
-## 🚀 Hoe het Werkt
+## Hoe het Werkt
 
 ### Typing Animatie Logica
 
@@ -193,7 +193,7 @@ if (skipTyping) {
 
 ---
 
-## 📝 Content Strategie
+## Content Strategie
 
 ### About Me Sectie
 - **ASCII art naam** voor visuele impact
@@ -224,7 +224,7 @@ Gefocust op **Platform Engineering** tools:
 
 ---
 
-## 🔧 Development Tips
+## Development Tips
 
 ### Lokaal Testen
 ```bash
@@ -254,7 +254,7 @@ git push origin main
 
 ---
 
-## 🎓 Geleerde Lessen
+## Geleerde Lessen
 
 ### 1. **Mobile-First is Cruciaal**
 - Eerst desktop gemaakt, daarna mobile
@@ -283,7 +283,7 @@ git push origin main
 
 ---
 
-## 🔄 Toekomstige Verbeteringen
+## Toekomstige Verbeteringen
 
 ### Potentiële Features
 - [ ] Dark/light mode toggle
@@ -308,25 +308,25 @@ git push origin main
 
 ---
 
-## 📄 Licentie
+## Licentie
 
 Dit project is gemaakt voor persoonlijk gebruik als portfolio.
 
 ---
 
-## 👤 Over Mij
+## Over Mij
 
 **Jonas Desmet**
 Student Systeem- en Netwerkbeheer | Oost-Vlaanderen
 Aspiring Platform Engineer
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/desmet-jonas)
-- 🐙 [GitHub](https://github.com/Keeposz)
-- 📧 jonasdesmet22@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/desmet-jonas)
+- [GitHub](https://github.com/Keeposz)
+- jonasdesmet22@gmail.com
 
 ---
 
-## 🙏 Credits
+## Credits
 
 **Development Process:**
 - Designed en ontwikkeld met hulp van Claude Code (Anthropic)
