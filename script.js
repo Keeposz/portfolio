@@ -3,13 +3,6 @@ const sections = {
     about: {
         command: "cat about.txt",
         output: `
-     ██╗ ██████╗ ███╗   ██╗ █████╗ ███████╗
-     ██║██╔═══██╗████╗  ██║██╔══██╗██╔════╝
-     ██║██║   ██║██╔██╗ ██║███████║███████╗
-██   ██║██║   ██║██║╚██╗██║██╔══██║╚════██║
-╚█████╔╝╚██████╔╝██║ ╚████║██║  ██║███████║
- ╚════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
-
 Student Systeem- en Netwerkbeheer | Oost-Vlaanderen
 Aspiring Platform Engineer
 
@@ -174,7 +167,7 @@ async function loadSection(sectionName) {
 
     // Add profile image to about section before typing
     if (sectionName === 'about') {
-        const profileImgHtml = '<img src="Profile.jpg" alt="Jonas Desmet - Platform Engineer" class="profile-img" loading="lazy">';
+        const profileImgHtml = '<img src="P1.jpg" alt="Jonas Desmet - Platform Engineer" class="profile-img" loading="lazy">';
         outputDiv.insertAdjacentHTML('afterbegin', profileImgHtml);
     }
 
